@@ -1,0 +1,29 @@
+button {
+    border: none;
+    background-color: rgba(0, 0, 0, 0.438);
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+    outline: none;
+    transition: ease-in-out .125s;
+ 
+  }
+  
+  button:hover {
+    background-color: rgba(128, 128, 128, 0.493);
+    color: rgb(0, 0, 0);
+    transform: scale(1.1);
+  }
+  
+  .equals {
+    grid-column: 3 / 5;
+    background-color: rgba(55, 0, 255, 0.603);
+  }
+  
+  .equals:hover {
+    background-color: rgba(55, 0, 255, 0.603);
+    transition: 0.4s  ease;
+    color: rgb(255, 255, 255);
+  }
